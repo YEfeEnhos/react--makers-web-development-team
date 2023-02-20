@@ -1,18 +1,17 @@
 # React - Beginner to Master Guide 
+## Useful Terminal Commands
 
-# Useful Terminal Commands
-
-## Navigating to a Local Folder 
+### Navigating to a Local Folder 
 ```sh
 cd react--makers-web-development-team
 ```
 
-## Starting the Development Server
+### Starting the Development Server
 ```sh 
 npm start
 ```
 
-## Installing a NPM Package
+### Installing a NPM Package
 ```sh 
 npm install react-router-dom@6
 ```
