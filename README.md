@@ -69,4 +69,4 @@ import './index.css';
 
 ## For help, check the React Docs Beta site
 
-![React Docs Beta](/assets/react_docs_beta.png "React Docs Beta")
+![React Docs Beta](/src/assets/react_docs_beta.png "React Docs Beta")
