@@ -18,13 +18,13 @@ npm start
 npm install react-router-dom@6
 ```
 
-### Importing Internal Component
+### Importing Internal Components
 
 ```js
 import Navbar from "./components/Navbar";
 ```
 
-### Importing Non-Default Functions
+### Importing non-default Functions
 
 ```js
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -36,7 +36,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default Navbar;
 ```
 
-## or
+## OR
 
 ```js
 export default function Navbar() => {
@@ -48,7 +48,7 @@ export default function Navbar() => {
 }
 ```
 
-### Rendering a Component in App.js
+### Rendering a component in App.js
 
 ```js
 function App() {
@@ -61,3 +61,12 @@ function App() {
 
 export default App;
 ```
+
+### Importing a CSS file to a Component
+```js
+import './index.css';
+```
+
+## For help, check the React Docs Beta site
+
+![React Docs Beta](/assets/react-docs-beta.png "React Docs Beta")
