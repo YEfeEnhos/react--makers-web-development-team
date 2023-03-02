@@ -385,7 +385,7 @@ const listItems = people.map(person => <li>{person}</li>);
 ```jsx
 return <ul>{listItems}</ul>;
 ```
-## Full funcition
+## Full function
 ```jsx
 const people = [
   'Creola Katherine Johnson: mathematician',
