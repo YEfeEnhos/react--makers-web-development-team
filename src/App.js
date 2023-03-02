@@ -12,14 +12,14 @@ import List from './components/List';
 function App() {
   return (
     <>
-    {/* <Navbar /> */}
+    <Navbar />
     <Display />
     <DynamicDisplay />
-    {/* <DisplayDate />
-    <Object /> */}
-    {/* <Profile />
-    <CardDisplay /> */}
-    {/* <List /> */}
+    <DisplayDate />
+    <Object />
+    <Profile />
+    <CardDisplay />
+    <List />
     
     </>
   );
