@@ -1,24 +1,18 @@
-import React from 'react'
-import Avatar from './Avatar.js';
+import React from "react";
+import Avatar from "./Avatar.js";
 
-function Card({ children }) {
+function Card() {
   return (
     <div className="card">
-      {children}
+      <Avatar
+        size={700}
+        person={{
+          name: "Katsuko Saruhashi",
+          imageId: "YfeOqp2",
+        }}
+      />
     </div>
   );
 }
 
-export default function CardDisplay() {
-  return (
-    <Card>
-      <Avatar
-        size={100}
-        person={{ 
-          name: 'Katsuko Saruhashi',
-          imageId: 'YfeOqp2'
-        }}
-      />
-    </Card>
-  );
-}
+export default Card;
