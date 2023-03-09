@@ -15,11 +15,11 @@ function App() {
     {/* <Navbar /> */}
     <Display />
     <DynamicDisplay />
-    {/* <DisplayDate />
-    <Object /> */}
+    <DisplayDate />
+    <Object />
     {/* <Profile />
     <CardDisplay /> */}
-    {/* <List /> */}
+    <List />
     
     </>
   );

@@ -9,6 +9,8 @@ const person = {
   };
   
   export default function TodoList() {
+    console.log(person.theme);
+    console.log(person);
     return (
       <div style={person.theme}>
         <h1>{person.name}'s Todos</h1>
