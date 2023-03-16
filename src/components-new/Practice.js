@@ -6,13 +6,14 @@ function Practice() {
   return (
     <>
       {toDo.map((element, index) => {
-        const { subject, website, teacher, content } = element;
+        const { subject, website, teacher, content, url } = element;
         return (
-          <div className="article" key={index}>
-            <div className="heading"> {subject} </div>
-            <div className="sub-heading"> {teacher} </div>
-            <div className="body"> {website} </div>
-            <div className="body "> {content} </div>
+          <div style = {{ backgroundImage:`url(${url})`}} className="article" key={index}>
+              <div className="heading"> {subject} </div>
+              <div className="sub-heading"> {teacher} </div>
+              <div className="body"> {website} </div>
+              <div className="body "> {content} </div>
+
           </div>
         );
       })}

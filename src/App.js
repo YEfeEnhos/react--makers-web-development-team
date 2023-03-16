@@ -7,7 +7,13 @@
 // import CardDisplay from './components/Card';
 // import List from './components/List';
 // import Alperen from './components/Alperen';
-import Practice from './components-new/Practice';
+// import Practice from './components-new/Practice';
+
+import EventHandler from "./components/EventHandler";
+import EventHandlerasProp from "./components/eventHandlerasProp";
+import EventHandlerPassing from "./components/EventHandlerPassing";
+import EventPropogation from "./components/EventPropogation";
+import PreventDefault from "./components/PreventDefault";
 
 
 function App() {
@@ -22,7 +28,12 @@ function App() {
     <Profile />
     <CardDisplay />
     <List /> */}
-    <Practice/>
+    {/* <Practice/> */}
+    <EventHandler />
+    <EventHandlerPassing />
+    <EventHandlerasProp />
+    <EventPropogation />
+    <PreventDefault />
     
     </div>
   );

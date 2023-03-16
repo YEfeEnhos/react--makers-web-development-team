@@ -458,6 +458,25 @@ const listItems = chemists.map(person =>
 ```jsx
 return <ul>{listItems}</ul>;
 ```
+## Fix the event handler 
+```jsx
+export default function LightSwitch() {
+  function handleClick() {
+    let bodyStyle = document.body.style;
+    if (bodyStyle.backgroundColor === 'black') {
+      bodyStyle.backgroundColor = 'white';
+    } else {
+      bodyStyle.backgroundColor = 'black';
+    }
+  }
+```
+  return (
+    <button onClick={handleClick}>
+      Toggle the lights
+    </button>
+  );
+}
+
 
 ## For help, check the React Docs Beta site
 
